@@ -1,1 +1,64 @@
 /*Personal Web Page Style Sheet */
+header, nav, main, footer {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  padding: 0, 20, 0, 160px;
+  font: times, georgia, serif;
+}
+
+header, nav {
+  text-align: center;
+}
+
+body {
+  background-color: #3F97EF;
+}
+
+nav {
+  font-size: 16pt;
+  font: times, georgia, serif;
+}
+
+ul {
+  columns: 2;
+  list-style-type: circle;
+}
+
+img, p, h2 {
+  padding-left: 30px;
+}
+
+h1, h2, h4, h6 {
+  color: #964B00;
+  font: times, georgia, serif;
+}
+
+footer {
+  font: times, georgia, serif;
+}
+
+nav a:link {
+  color: #000000;
+}
+
+nav a:visited {
+  color: #3F97EF;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+#surround {
+  margin: 0 auto;
+  width: 85%;
+  min-width: 960px;
+  max-width: 1200px;
+  background-color: #B1D5F9;
+}
